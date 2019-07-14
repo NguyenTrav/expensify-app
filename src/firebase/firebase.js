@@ -18,6 +18,8 @@ const firebaseConfig = {
     
     const database = firebase.database();
 
+    export { firebase, database as default };
+
     // database.ref().set({
     //     name: "Travis Nguyen",
     //     age: 25,
@@ -121,11 +123,11 @@ const firebaseConfig = {
 //     body: "lets party"
 // });
 
-database.ref("expenses").push({
-    description: "water bill",
-    amount: 10,
-    date: 1021994,
-});
+// database.ref("expenses").push({
+//     description: "water bill",
+//     amount: 10,
+//     date: 1021994,
+// });
 
 // database.ref("expenses").on("value", (snapshot) => 
 // {

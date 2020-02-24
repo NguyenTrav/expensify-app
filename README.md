@@ -1,6 +1,7 @@
 # Expensify App
 
-I developed a web application to manage expenses using React Router and React-Redux in ES6.
+I developed a web application to help users manage and budget their monthly expenses using React Router and React-Redux in ES6.
+
 [Website found here](https://nguyentrav-react-expensify.herokuapp.com/)
 
 Features
